@@ -1,0 +1,472 @@
+.body {
+    background-color: rgb(255, 255, 239);
+    margin:0px;
+    overflow-x: hidden;
+    font-family:'Roboto';
+}
+
+.discount {
+    background-color: hotpink;
+    margin: -8px;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+}
+
+.header {
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#search-button {
+    height: 25px;
+}
+
+#search-button:hover {
+    transform: scale(1.02);
+}
+
+.logo {
+    height: 150px;
+    margin-left: 250px;
+}
+
+.arrowdown {
+    height: 5px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.bag {
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+.bag:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.header-children {
+    align-self: center;
+    justify-content: baseline;
+}
+
+.header-children:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: inline;
+    padding: 5px 10px;
+}
+
+.nav-menu:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-group {
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    justify-content: center;
+    display: block;
+    font-size: 60px;
+    margin: 10px;
+    margin-left: 515px;
+}
+
+.featured {
+    margin-left: 200px;
+}
+
+.featured-products {
+    font-size: 35px;
+    margin-left: 13rem;
+}
+
+.product {
+    display: inline-block;
+    margin: 15px;
+}
+
+.product:hover{
+    cursor: pointer;
+}
+.product:hover .product-title{
+    text-decoration: underline;
+}
+
+.product-img {
+    height: 250px;
+    width: 250px;
+}
+
+.product-title {
+    margin: 10px;
+}
+
+.original-price {
+    text-decoration:line-through;
+    padding: 0px 10px;
+}
+
+.discounted-price {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.view-all {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.button {
+    font-weight: 550;
+    padding: 15px 30px;
+    background-color: orange;
+    border: 0px;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.review-div {
+    background-color: rgb(160, 200, 160);
+    padding: 40px 200px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+.the-reviews {
+    justify-content: center;
+    display: flex;
+}
+
+.review-block {
+    width: 300px;
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    margin: 30px 5px;
+}
+
+.reviewer {
+    height: 40px;
+    margin: 0px;
+}
+
+.review {
+    height: 100px;
+    margin: 0px;
+    display: block;
+}
+
+.email {
+    height: 150px;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    border: 0.5px;
+    border-style: ridge;
+}
+
+.email-input {
+    height: 40px;
+    width: 240px;
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(255, 255, 239);
+    padding: 0px 25px;
+    font-size: large;
+}
+
+.email-input::placeholder {
+    font-size: large;
+}
+
+.email-button {
+    height: 43.5px;
+    border: 0px;
+    background-color: rgb(255, 255, 239);
+    margin-left: -10px;
+}
+.email-button:hover{
+    cursor: pointer;
+}
+
+.arrow {
+    height: 25%;
+    padding-right: 10px;
+    border: 0px;
+}
+
+.email-bar {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+}
+.email-bar:hover{
+    transform: scale(1.01);
+}
+
+.ad-logos {
+    height: 20px;
+    align-self: center;
+}
+.ad-logos{
+    cursor: pointer;
+}
+.ad-logo {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+}
+.ad-logo:hover{
+    transform: scale(1.03);
+}
+
+.email-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-logo {
+    height: 15px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    border-style: solid;
+    padding: 2px 3px;
+}
+
+.pay-button {
+    background-color: rgb(255, 255, 239);
+    width: 170px;
+    height: 40px;
+    padding: 0px 15px;
+    font-weight: 490;
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.pay-button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.arrowdown-2 {
+    height: 6px;
+    width: 11px;
+    float: right;
+    padding-top: 6px;
+}
+
+.bottom-text {
+    background-color: rgb(255, 255, 239);
+    border: 0px;
+    font-size: 11px;
+    padding: 0px 7px;
+}
+.bottom-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.payment-apps{
+    height: 20px;
+    align-self: center;
+}
+.payment-app:hover{
+    cursor: none;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+#dropdown-menu{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    border-width:1.5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: -60px;
+    background-color: antiquewhite;
+    padding: 0px 10px;
+    margin-top: 5px;
+    width: 185px;
+    height: 250px;
+    overflow-y: scroll;
+}
+#dropdown-menu:hover{
+    cursor: pointer;
+}
+#currency-button{
+    font-weight:530;
+    font-size:15px;
+    background-color: antiquewhite;
+    border-width: 2px;
+    padding: 3px 9px;
+
+}
+#currency-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.currency-tab{
+    margin: 50px;
+}
+.dropdown-content{
+    color: gray;
+}
+.dropdown-content:hover{
+    color: black;
+}
+#searchbar{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 200px;
+    align-items: center;
+    border-color: bisque;
+    border: 0px;
+    border-bottom: 1px;
+    border-style:solid;
+    position: absolute;
+    display:none;
+}
+#searchbar-search{
+    width: 700px;
+    height: 45px;
+    margin-left: 380px;
+    font-size: medium;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-right: 0px;
+}
+.btn1-img{
+    height:20px;
+    padding: 11px 10px;
+}
+.searchbar-btn1{
+    margin-left: -1px;
+    background-color: antiquewhite;
+    border-left: 0px;
+    border-radius: 3px;
+    border-width: 2px;
+    padding: 0px;
+
+}
+.cross-png{
+    height: 23px;
+}
+.cross-png:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.close-button{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: hidden;
+}
+/*FEATURED PRODUCTS*/
+
+.ContactUs{
+    margin-left:400px;
+    width: 800px;
+}
+
+.text{
+    font-size: large;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 239);
+    border-width: 2px;
+}
+.text:hover{
+    transform: scale(1.005);
+}
+.Contact-title{
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+#Name{
+    height: 30px;
+    width: 300px;
+    margin-right: 20px;
+}
+#phoneNumber{
+    display: block;
+    width: 668px;
+    height: 30px;
+}
+#Comment{
+    size:668px;
+    width: 668px;
+    height: 100px;
+    overflow: scroll;
+    margin-bottom: 15px;
+}
+
+/*NEWS*/
+.news{
+    width:70rem;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    line-height: 2rem;
+}
+.news1{
+    background-color:white;
+    padding: 2rem 5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.news2,.news3{
+    background-color:white;
+    width: 30rem;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.news1,.news2,.news3:hover{
+    cursor: pointer;
+}
+.news1:hover .que,.news2:hover .que,.news3:hover .que{
+    text-decoration: underline;
+}
+
+/*featured*/
+.featuredProducts{
+    width: 70rem;
+}
+.p2-products{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 3rem;
+    margin:3rem 13rem;
+}
+.p2-img{
+    height: 33rem;
+}
